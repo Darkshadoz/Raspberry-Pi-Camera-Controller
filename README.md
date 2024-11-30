@@ -14,7 +14,6 @@
 - White Led and buzzer beep to countdown set timer.
 - Red Led and buzzer to indicate photo being shot.
 - Recommended Camera Focus for manual mode.
-- Send photo to the email (set in the software, uses dummy email)
 - Image filter
 
 ## Hardware Ideas:
@@ -52,7 +51,6 @@ gphoto2 --get-config <setting>
 
 
 ## Components:
-- 1x 7 segment display
 - 1x Buzzer
 - 1x Ultrasonic Sensor
 - 3x 2 Pin Button
@@ -62,18 +60,6 @@ gphoto2 --get-config <setting>
 - ?x Male-to-Female Cable
 - 1x Sony A6000 Camera (Supported Cameras: http://www.gphoto.org/proj/libgphoto2/support.php)
 - 1x Usb cable
-
-## Resources & Tutorial:
-
-- [libgphoto2 Data Structures](http://www.gphoto.org/doc/api/struct__CameraFunctions.html)
-- [gphoto2 beginner's tutorial](https://www.youtube.com/watch?v=1eAYxnSU2aw)
-- [gphoto2 informations](https://pypi.org/project/gphoto2/)
-- [gphoto documentation](http://www.gphoto.org/doc/)
-- [Alternative: Sony SDK](https://docodethatmatters.com/hacking-sony-a6000-for-modernization/)
-- [GUI Active Update](https://www.geeksforgeeks.org/tkinter-application-to-switch-between-different-page-frames/)
-- [CV image filter tutotiral](https://stackoverflow.com/questions/69871650/adding-bloom-effect-to-an-image-using-cv2)
-- [Pillow image fitler tutorial 1](https://www.geeksforgeeks.org/python-pil-image-filter-with-imagefilter-module/)
-- [Pillow image filter tutorial 2](https://pythonexamples.org/python-pillow-image-filter/)
 
 ## Implementation Ideas:
 
