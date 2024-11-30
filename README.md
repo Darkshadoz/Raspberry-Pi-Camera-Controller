@@ -82,6 +82,4 @@ gphoto2 --get-config <setting>
 - CountdownTimer: Countdown timer function, use forloop and time.sleep(1). TakePhoto after countdown.
 - Countdown is a global variable! Can be adjusted at anytime. Default is 3. Basis for all takePhoto function.
 - TakePhotoAfterFocused: Press button on UI -> Run to distance -> Get that distance ->Focus base on distance ->countdown -> -takephoto
-- Countdown is a global variable! Can be adjusted at anytime.
-- So TakePhotoAfterFocused will use the countdown.
 - TakePhotoAfterDistance: Press button on UI with set distance -> walk to distance ->beep to notify -> focus -> countdown -> takephoto
